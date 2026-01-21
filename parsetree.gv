@@ -1,0 +1,15 @@
+digraph parse {
+  n0 [label="a"];
+  n1 [label="b"];
+  n2 [label="A"];
+  n3 [label="A"];
+  n4 [label="b"];
+  n5 [label="A"];
+  n6 [label="S"];
+  n2 -> n1;
+  n3 -> n0;
+  n3 -> n2;
+  n5 -> n4;
+  n6 -> n3;
+  n6 -> n5;
+}
